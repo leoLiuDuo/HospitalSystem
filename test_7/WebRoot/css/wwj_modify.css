@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+/*.small_modal{
+	position:absolute;
+	width:500px;
+	height:auto;	
+	margin: auto;
+	top:50%;
+	left:35%;
+}*/
+.modal{
+	position:fixed;
+	width:auto;
+	height:auto;	
+	margin: auto;
+	top:50%;
+	left:50%;
+	margin-left: -280px;
+}
+.big_modal{
+	position:fixed;
+	width:auto;
+	height:auto;	
+	margin: auto;
+	top:50%;
+	left:50%;
+	margin-left: -680px;
+}
+.modal-body{
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.biger_iframe{
+	 
+	 width:1200px;
+	 height:730px;
+	 scrolling:no;
+}
+
+.big_iframe{
+	 
+	 width:1000px;
+	 height:730px;
+	 scrolling:no;
+}
+
+.small_iframe{
+	 
+	 width:430px;
+	 height:500px;
+	 scrolling:no;
+}
+.border-change{
+	margin-left:100px;
+	margin-right:100px;
+	
+}
+.table{
+	width:auto;
+	margin:auto;
+	max-width:1200px;
+}
+
+.search_single{
+	width:400px;
+	margin-left:15px;
+}
+
+.search_double{
+	width:870px;
+    margin-left:10px;
+}
+
+.search_double_admin{
+	width:620px;
+	
+}
+
+.search_single_input{
+	float:left;
+	width:220px;
+}
+.search_double_input{
+	width:680px;
+	float:left;
+}
+
+.search_double_admin_input{
+	width:450px;
+	float:left;
+}
+
+.btn_double{
+	width:150px;
+	float:left;
+	margin-left:0px;
+	padding:0px;
+}
+
+.table_title_first{
+	text-align:left;
+}
+
+.table_title_first_name{
+	display:inline-block;
+}
+
+.query_condition{
+	width:900px;
+	margin:auto;
+}
+
+.query_condition_btn{
+	margin-left:300px;
+	 width:60px
+}
+
+a:link{
+	color: #C40000
+	}
+a:visited{
+	color: #C40000
+	}
+a:hover{
+	color:#008040}
+
+.xiala{
+	background:url()no
+}
+
+.table_duowei{font-size:16px; }
+
+.table td{ 
+    vertical-align: middle;
+    height:50px;}
+    
+ .table p{margin: 0px;}
+ 
+ .table_huanzhe{
+ width:1000px;
+ font-size:14px;}
+ .table_huanzhe thead th{
+ font-size:13px;
+ height:35px;
+ vertical-align: middle;}
+ 
+ .table_xiangqing {
+ width:1000px;
+ font-size:14px;}
+ .table_xiangqing thead th{
+ font-size:13px;
+ height:35px;
+ vertical-align: middle;}
+ 
+ .table_jiancha {
+ width:1000px;
+ font-size:14px;}
+ .table_jiancha thead th{
+ font-size:13px;
+ height:35px;
+ vertical-align: middle;}
+ 
+ .table_jianyan {
+ width:1000px;
+ font-size:14px;}
+ .table_jianyan thead th{
+ font-size:13px;
+ height:35px;
+ vertical-align: middle;}
+ 
+ 
+ .table_lishi {
+ width:1000px;
+ font-size:14px;}
+ .table_lishi thead th{
+ font-size:13px;
+ height:35px;
+ vertical-align: middle;}
+ 
+ .xiala{
+ background:url("/test_7/img/demo/xiala.png") no-repeat; 
+ float:left;
+ }
+ 

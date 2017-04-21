@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.table th, .table td{
+text-align: center;
+}
+.modal{
+	
+	width:90%;
+	margin-left:-45%;
+}
+.container-fluid{
+	padding-left:0px;
+	padding-right:0px;
+	
+}

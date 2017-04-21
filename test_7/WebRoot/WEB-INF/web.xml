@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error404.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error500.jsp</location>
+  </error-page>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Loginservlet</servlet-name>
+    <servlet-class>Login.Loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sear_quesservlet</servlet-name>
+    <servlet-class>Modify.Sear_quesservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Noticeservlet</servlet-name>
+    <servlet-class>admin.Notice_admin.Noticeservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>user_servlet</servlet-name>
+    <servlet-class>admin.user_admin.user_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Loginoutservlet</servlet-name>
+    <servlet-class>Login.Loginoutservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_modservlet</servlet-name>
+    <servlet-class>Modify.User_modservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mod_security</servlet-name>
+    <servlet-class>admin.user_admin.mod_security</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>user_valid_password</servlet-name>
+    <servlet-class>admin.user_admin.user_valid_password</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>person_information_servlet</servlet-name>
+    <servlet-class>Modify.person_information_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>asset_all_modservlet</servlet-name>
+    <servlet-class>pro.servlet.asset_all_modservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_productor_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_productor_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_proinfo_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_proinfo_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>show_data_servlet</servlet-name>
+    <servlet-class>pro.servlet.show_data_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DuoWeiCXServlet</servlet-name>
+    <servlet-class>pro.servlet.DuoWeiCXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DuoWeiCXServlet</servlet-name>
+    <url-pattern>/duoWeiCXServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContServlet</servlet-name>
+    <servlet-class>pro.servlet.ContServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Pro_typeServlet</servlet-name>
+    <servlet-class>pro.servlet.Pro_typeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_proxyunit_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_proxyunit_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_count_condition_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_count_condition_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_basic_device</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_basic_device</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_basic_measure</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_basic_measure</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_count_condition_summary_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_count_condition_summary_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_count_change_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_count_change_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_change_servlet</servlet-name>
+    <servlet-class>pro.servlet.pro_change_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pro_sup_device_type_servelet</servlet-name>
+    <servlet-class>pro.servlet.pro_sup_device_type_servelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Zichan_servlet</servlet-name>
+    <servlet-class>pro.servlet.Zichan_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Zaixian_servlet</servlet-name>
+    <servlet-class>pro.servlet.Zaixian_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>forms_sunhuai</servlet-name>
+    <servlet-class>pro.servlet.forms_sunhuai</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>forms_baofei</servlet-name>
+    <servlet-class>pro.servlet.forms_baofei</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Export_Servlet</servlet-name>
+    <servlet-class>pro.servlet.Export_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Export_Servlet</servlet-name>
+    <url-pattern>/Export_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Zhuangu_Servlet</servlet-name>
+    <servlet-class>pro.servlet.Zhuangu_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Liushi_servlet</servlet-name>
+    <servlet-class>pro.servlet.Liushi_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>valid_asset_servlet</servlet-name>
+    <servlet-class>pro.servlet.valid_asset_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Valid</servlet-name>
+    <servlet-class>valid_id.Valid</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pro_sup_device_type_servelet</servlet-name>
+    <url-pattern>/pro_sup_device_type_servelet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_change_servlet</servlet-name>
+    <url-pattern>/pro_change_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_count_change_servlet</servlet-name>
+    <url-pattern>/pro_count_change_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_count_condition_summary_servlet</servlet-name>
+    <url-pattern>/pro_count_condition_summary_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_sup_basic_measure</servlet-name>
+    <url-pattern>/pro_sup_basic_measure.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_sup_basic_device</servlet-name>
+    <url-pattern>/pro_sup_basic_device.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_count_condition_servlet</servlet-name>
+    <url-pattern>/pro_count_condition_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_sup_proxyunit_servlet</servlet-name>
+    <url-pattern>/pro_sup_proxyunit_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Pro_typeServlet</servlet-name>
+    <url-pattern>/Pro_typeServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContServlet</servlet-name>
+    <url-pattern>/ContServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_sup_proinfo_servlet</servlet-name>
+    <url-pattern>/pro_sup_proinfo_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_sup_productor_servlet</servlet-name>
+    <url-pattern>/pro_sup_productor_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>asset_all_modservlet</servlet-name>
+    <url-pattern>/asset_all_modservlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pro_sup_servlet</servlet-name>
+    <url-pattern>/pro_sup_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Zichan_servlet</servlet-name>
+    <url-pattern>/Zichan_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Zaixian_servlet</servlet-name>
+    <url-pattern>/Zaixian_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Zhuangu_Servlet</servlet-name>
+    <url-pattern>/Zhuangu_Servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Liushi_servlet</servlet-name>
+    <url-pattern>/Liushi_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>forms_sunhuai</servlet-name>
+    <url-pattern>/forms_sunhuai.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>forms_baofei</servlet-name>
+    <url-pattern>/forms_baofei.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>valid_asset_servlet</servlet-name>
+    <url-pattern>/valid_asset_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>show_data_servlet</servlet-name>
+    <url-pattern>/show_data_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>user_servlet</servlet-name>
+    <url-pattern>/user_servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mod_security</servlet-name>
+    <url-pattern>/mod_security.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginservlet</servlet-name>
+    <url-pattern>/login/Loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sear_quesservlet</servlet-name>
+    <url-pattern>/Sear_quesservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Noticeservlet</servlet-name>
+    <url-pattern>/Noticeservlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_modservlet</servlet-name>
+    <url-pattern>/login/User_modservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginoutservlet</servlet-name>
+    <url-pattern>/Loginout/Loginoutservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>user_valid_password</servlet-name>
+    <url-pattern>/user_valid_password</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>person_information_servlet</servlet-name>
+    <url-pattern>/person_information_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Valid</servlet-name>
+    <url-pattern>/Valid</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
